@@ -1,1 +1,1 @@
-# WIKIPEDIA
+# WikiPedia
