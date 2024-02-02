@@ -1,0 +1,164 @@
+.peacock-content-heading{
+    /* border: 1px solid green ; */
+    height:40px;
+    /* font-size: large; */
+    font-weight: 400;
+    font-family: serif; 
+}
+.article-list{
+    /* border:1px solid purple; */
+    height: 30px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    /* position: relative; */
+}
+.article-list-1,
+.article-list-2{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 300px;
+    /* position: absolute; */
+}
+.article-list-items:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.top{
+    display: flex;
+}
+.top-content{
+    /* border: 1px solid black; */
+    width: 700px;
+    height: 1100px;
+    line-height: 1.5;
+    
+}
+.top-content-img{
+    border: 1px solid black;
+    width: 300px;
+    height: 1343px;
+    margin-top: 70px;
+   
+
+}
+
+.top-content-img-heading{
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 300px;
+    text-align:center ;
+    background-color: rgba(255, 255, 0, 0.567);
+
+
+}
+.peacock-1{
+    height:200px;
+    margin-top: 5px;
+}
+.Peacock-displaying-in-East-Park{
+    margin-left: 10px;
+
+}
+.Kingston-upon-Hull{
+    margin-top:10px ;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+.Conversation-status-img{
+    width:300px
+}
+.map{
+    margin-top: 10px;
+    width:299px;
+    height: 233px;
+}
+.mydiv{
+    /* border:5px solid red; */
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.img-1{
+    /* border: 3px solid orange; */
+    height: 400px;
+}
+.Taxonomy{
+    /* border: 1px solid green; */
+    margin-bottom: 20px;
+
+}
+.Description-details{
+    /* border: 1px solid black; */
+    width: 1000px;
+    top:0px;
+    right: 0px;
+    
+}
+.Description-details-img{
+    margin-top: 10px;
+    border: 1px solid brown;
+   
+}
+.Description-details-peacock{
+    /* border: 2px solid green; */
+    margin-bottom: 10px;
+}
+.Distribution-details{
+    border: 1ps solidd green;
+    width:1200px;
+}
+.Distribution-and-habitat{
+    /* border: 1px solid black; */
+    width:1000px;
+    height:760px;
+    /* display: flex; */
+}
+.peacock-3{
+    margin-top: 20px;
+    width:300px;
+    margin-bottom: 9px;;
+}
+.Distribution-and-habitat-text{
+    width:1000px;
+    /* border: 1px solid orange; */
+    font-size: larger;
+    font-weight: bolder;
+    
+    /* justify-content: space-around; */
+    
+}
+.Distribution-details-img-container{
+    /* border: 5px solid pink; */
+    margin-top:15px;
+    width:990px;
+    height:700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Distribution-details{
+    /* border: 1px solid brown; */
+    width:600px;
+    height: 700px;
+    /* position: absolute; */
+}
+.Distribution-details-img{
+    /* border: 1px solid red; */
+    width:300px;
+    height: 700px;
+    /* margin-right: 40px;; */
+    /* position: absolute; */
+
+}
+.behaviour-container{
+    /* border: 1px solid rebeccapurple; */
+    width:990px;
+    height:550px;
+
+}
+

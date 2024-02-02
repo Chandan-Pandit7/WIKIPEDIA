@@ -1,0 +1,124 @@
+.nav-bar{
+    border-bottom: 1px solid black;
+    height:70px;
+    width:100%;
+    display:  flex;
+    /* position: fixed; */
+    /* background-color: white; */
+
+    /* z-index: 1; */
+    /* top:0; */ */
+}
+
+.wikipedia{
+    /* border: 1px solid black; */
+    height:100%;
+    width:30%;
+
+}
+.search-bar{
+    /* border: 1px solid black; */
+    height:100%;
+    width:60%;
+
+}
+.login-info{
+    /* border: 1px solid black; */
+    height:100%;
+    width:30%;
+}
+.wikipedia{
+    position: relative;
+    justify-content: center;
+    /* align-items: center; */ 
+}
+.wikipedia-logo{
+    height:100%;
+    width:50%;
+    margin:auto;
+    /* border: 1px solid red; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAoZ3pLXs1XLIj_yIun_ySDug7eARkMmKHwg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    margin-top: 7px; 
+
+}
+.wikipedia-logo:hover{
+    cursor: pointer;
+}
+.search-bar{
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    align-items: center;
+}
+.search-bar-container{
+    border: 1px solid #ccc;
+    height:31px;
+    width:600px;
+    position: absolute;
+    /* align-items: center; */
+    display: flex;
+
+}
+.search-wikipedia{
+    /* border: 1px solid brown; */
+    height:31px;
+    width: 500px;
+    display: flex;
+}
+.search{
+    flex-grow: 1;
+    font-weight: 800;
+    font-size: large;
+    border: none;
+}
+.search-logo{
+    height:30px;
+    width:30px;
+}
+.search-wikipedia-text{
+    border-color:rgba(255, 255, 255, 0.031);
+    /* border: 1px solid red; */
+    height: 28px;
+    width: 500px;
+    
+}
+.search-bar-container .search-wikipedia .search-wikipedia-text{
+    text-size-adjust: 900;
+    margin-left: 15px;
+}
+.search:hover{
+    cursor: pointer;
+}
+.login-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-info-items{
+    position: absolute;
+    /* border: 1px solid green; */
+    height: 20px;
+    width: 300px;
+
+}
+.links{
+    color: blue;
+}
+.links:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hamburger{
+    margin-left: 80px;
+    height:70px;
+    width: 100px;
+    /* border: 1px solid black; */
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8CAgIAAADb29vDw8OxsbHt7e3y8vK4uLiampo7OztmZmaAgIC8vLzT09NhYWEcHBxxcXHi4uITExOioqJXV1eHh4dMTEx7e3uQkJAnJyc1NTX5+fnW1tbJyclAQEBzZbpGAAABTUlEQVR4nO3cC1LCQAwG4LK8lYcioCLi/W9pGa9gkyH9vgt0/tmhGzbNdh0AAAAAAAAAAAAAAAAAAABEW0yHtkzNt9u/tKFdXg95AdeDx/uzygo4b20SobVdTsBlUMA+4ltOwmNUwH4RZykJT2EJJ+2ckvApMOFzSsL3wIQfKQk/AxPOUxJO496lLamw2YTth8ecgF23bwEZ+2dssgL2W+IloGb7Siva7q671XxY2+/MfAAAAAAPY3GbDeuW2wOe/QSctZ2Suod35xZzXpp2ILwOO/Pe5gQ8BPaArykJ14E94JxFjOwf5nQu9ID/M2HOGtb/HdZ/l9bfD0dQ04ygLu3q/7cAAAAAeBDlv9UvP29Rfmam/NxT/dm1+vOH9WdI6/eA689y15/Hr3+nQv17MUZwt8kI7qfp6t8xBAAAAAAAAAAAAAAAAAAAwDj9AgjsI6cJ8n2yAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hamburger:hover{
+    cursor: pointer;
+}
